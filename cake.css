@@ -1,0 +1,55 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+    background-color: black;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+ul{
+    display: flex;
+    list-style:none;
+
+}
+nav h1{
+    font-size: 35px;
+
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 26px;
+}
+img{
+    width: 45%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.container.text{
+    margin-top: 20px;
+}
+.text p{
+    font-size: 20px;
+}
+.text button{
+    width: 160px;
+    height: 40px;
+    background-color: hsla(0, 75%, 53%, 0.947);
+    color: aliceblue;
+    font-size: 24px;
+    border:none;
+    margin-top: 50px;
+
+}
+.text button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
